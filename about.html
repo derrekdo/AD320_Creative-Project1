@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <!--
-  Directions:
-  - Try viewing the page before you make any changes
-  - Look for all the places it say *** TODO: _____ ***
-  - Remove the *** TODO: _____ *** and follow the instructions. i.e. if it says
-    *** TODO: Give the page a title *** do just that, write a title for the page in place of the
-    todo item. Your final submission should not include any TODO comments
--->
-
-<!--
   ***
   Derrek Do
   10/7/2023
 
-  HTML source code for AD320 Creative Project 1. 
+  AD320 Creative Project 1. Source code to the 'about page' displaying various information
+  about me.  
   
   ***
 -->
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -25,8 +18,13 @@
   </head>
   <body>
     <section>
-      <a href="resume.html">Resume</a>
-      <h1>*** About Me ***</h1>
+      <header>
+        <nav>
+            <a href="about.html" id="page">About Me</a>
+            <a href="resume.html" id="page">Resume</a>
+        </nav>
+      </header>
+      <h1>About Me</h1>
       <p>
         My name is Derrek Do, I'm a first generation vietnamese american student at North Seattle Colleges. I am currently studying computer science and working
         towards a Bachelors degree.<br> 
@@ -65,16 +63,6 @@
 
     <section>
       <h2>My Favorite Things</h2>
-      <!--
-        ***
-        TODO: Finish the following list of your favorite things (you can customize the
-        categories if you'd like!).
-
-        Wrap your answer for at least one favorite thing inside of
-        an <a> tag, linking to a related page (e.g. a wikipedia page of your favorite animal).
-        If you have multiple favorites in a category, try a nested list inside of an li!
-        ***
-      -->
       <ol>
         <li><strong>Favorite animals:</strong>
           <ul>
@@ -121,13 +109,6 @@
           </ul>
         </li>
       </ol>
-
-      <!--
-        ***
-        TODO: Find two images that represent when you're happy and when you're sad (consider
-        Google Image Search) but remember to cite your sources
-        ***
-      -->
       <div id="emotion">
         <div id="column">
           <h3>A picture that represents when I'm happy</h3>
@@ -149,9 +130,9 @@
       -->
       <article>
         <blockquote>
-          <p>
+          <p><span>
             "You miss a 100% of the shots your don't take"
-          </p>
+          </p></span>
           <footer>- Wayne Gretzky</footer>
         </blockquote>
       </article>
