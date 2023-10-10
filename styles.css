@@ -1,15 +1,15 @@
 /*
-  Derrek Do
-  10/7/2023
+  Name: Derrek Do
+  Date: 10/7/2023
 
   Style sheet that is applied to both html file to make the site easier to look at.
   Various rule sets are created to ensure different sections are seperated with their own styles.
-
+  Includes a rule set that applies to the entire page.
 */
 
 body {
   background-color: #2a2b2e;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif, "Roboto";
   color: white;
   margin-left: auto;
   margin-right: auto;
